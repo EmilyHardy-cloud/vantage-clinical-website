@@ -3,6 +3,50 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Hexagon, Activity, Infinity as InfinityIcon, CheckCircle2 } from 'lucide-react'
 
+const pricingTiers = [
+  {
+    title: 'Clinical Risk Health-Check (One-Off Audit)',
+    tagline: 'A high-impact review to identify gaps in your workplace mental health governance and duty of care.',
+    price: '£450',
+    cadence: 'One-off',
+    features: [
+      'Review of current mental health policies, EAP utilisation, and manager protocols.',
+      'ISO 45003 alignment check.',
+      'Prioritized 5-point clinical action report.',
+      '45-minute executive debrief call.',
+    ],
+    cta: 'Book an Audit',
+  },
+  {
+    title: 'Monthly Clinical Risk Retainer (Most Popular)',
+    tagline: 'Ongoing expert guidance to safeguard your leaders, reduce liability, and support struggling staff safely.',
+    price: '£295',
+    cadence: '/ month',
+    features: [
+      'Includes everything in the Health-Check.',
+      'Up to 3 hours of monthly advisory support.',
+      'On-call manager advice for acute/high-risk employee situations.',
+      'Quarterly policy and governance updates.',
+      'Priority email and phone access.',
+    ],
+    cta: 'Get Started',
+    popular: true,
+  },
+  {
+    title: 'Full Operational Transformation',
+    tagline: 'End-to-end clinical governance setup, bespoke manager training, and complete risk integration.',
+    price: '£1,450',
+    cadence: 'One-off or split over 3 months',
+    features: [
+      'Complete Psychosocial Risk Assessment & Policy Overhaul.',
+      '½ Day Live Manager Masterclass (up to 12 line managers).',
+      'Escalation flowcharts & crisis communication toolkits.',
+      '12 months of compliance review and audit updates.',
+    ],
+    cta: 'Speak to an Advisor',
+  },
+]
+
 export default function Services() {
   return (
     <section id="services" className="w-full py-24 md:py-32 bg-slate-50 relative overflow-hidden">
@@ -255,8 +299,95 @@ export default function Services() {
           </div>
         </motion.div>
 
+        {/* Pricing */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          className="space-y-10"
+        >
+          <div className="text-center max-w-3xl mx-auto">
+            <div className="inline-block mb-4 px-4 py-1.5 bg-white border border-gray-200 rounded-full shadow-sm">
+              <span className="text-sm font-semibold text-midnight-navy tracking-tight">Scaled for Growing Businesses</span>
+            </div>
+            <p className="text-lg text-forensic-charcoal/75 leading-relaxed">
+              Protecting your people shouldn't require enterprise-level budgets. Our packages are designed specifically for small-to-medium enterprises, delivering clinical-grade risk governance and leadership support at transparent, predictable rates.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-stretch">
+            {pricingTiers.map((tier) => (
+              <div
+                key={tier.title}
+                className={`relative flex h-full flex-col rounded-[2rem] border p-8 shadow-sm transition-all duration-300 ${
+                  tier.popular
+                    ? 'border-strategic-gold bg-midnight-navy text-white shadow-xl lg:-translate-y-3'
+                    : 'border-gray-200 bg-white text-midnight-navy'
+                }`}
+              >
+                {tier.popular && (
+                  <div className="absolute -top-4 left-8 rounded-full bg-strategic-gold px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-midnight-navy shadow-sm">
+                    Most Popular
+                  </div>
+                )}
+
+                <div className="mb-8">
+                  <h3 className={`font-display text-2xl font-bold leading-tight ${tier.popular ? 'text-white' : 'text-midnight-navy'}`}>
+                    {tier.title}
+                  </h3>
+                  <p className={`mt-4 text-sm leading-relaxed ${tier.popular ? 'text-white/75' : 'text-forensic-charcoal/70'}`}>
+                    {tier.tagline}
+                  </p>
+                </div>
+
+                <div className={`mb-8 border-y py-6 ${tier.popular ? 'border-white/10' : 'border-gray-100'}`}>
+                  <div className="flex flex-wrap items-end gap-x-2 gap-y-1">
+                    <span className={`font-display text-4xl font-bold ${tier.popular ? 'text-strategic-gold' : 'text-midnight-navy'}`}>
+                      {tier.price}
+                    </span>
+                    <span className={`pb-1 text-sm font-semibold ${tier.popular ? 'text-white/70' : 'text-forensic-charcoal/60'}`}>
+                      {tier.cadence}
+                    </span>
+                  </div>
+                </div>
+
+                <ul className="mb-8 space-y-4">
+                  {tier.features.map((feature) => (
+                    <li key={feature} className={`flex gap-3 text-sm leading-relaxed ${tier.popular ? 'text-white/80' : 'text-forensic-charcoal/75'}`}>
+                      <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-strategic-gold" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <a
+                  href="#contact"
+                  className={`mt-auto inline-flex items-center justify-center gap-2 rounded-xl px-6 py-4 text-sm font-bold transition-colors ${
+                    tier.popular
+                      ? 'bg-strategic-gold text-midnight-navy hover:bg-white'
+                      : 'bg-midnight-navy text-white hover:bg-strategic-gold hover:text-midnight-navy'
+                  }`}
+                >
+                  {tier.cta} <ArrowRight className="h-4 w-4" />
+                </a>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-white p-8 shadow-xl border border-gray-200 md:flex-row md:items-center">
+            <p className="font-display text-2xl font-bold leading-tight text-midnight-navy">
+              Need a customised approach or team-wide training session?
+            </p>
+            <a
+              href="#contact"
+              className="inline-flex shrink-0 items-center justify-center gap-2 rounded-xl bg-strategic-gold px-7 py-4 text-sm font-bold text-midnight-navy transition-colors hover:bg-midnight-navy hover:text-white"
+            >
+              Request a Custom Proposal <ArrowRight className="h-4 w-4" />
+            </a>
+          </div>
+        </motion.div>
+
       </div>
     </section>
   )
 }
-
