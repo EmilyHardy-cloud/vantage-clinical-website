@@ -7,7 +7,7 @@ export default function About() {
   const principles = [
     {
       title: 'Precision',
-      description: 'Every assessment grounded in clinical evidence and regulatory standards. No surface-level generalizations.',
+      description: 'Every assessment grounded in clinical evidence and regulatory standards. No surface-level generalisations.',
       icon: Target
     },
     {
