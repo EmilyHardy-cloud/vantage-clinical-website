@@ -97,9 +97,9 @@ export default function Hero() {
               <div className="absolute top-0 right-0 w-64 h-64 bg-strategic-gold/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 transition-transform group-hover:scale-125" />
               <div className="relative z-10">
                 <div className="text-clinical-white mb-6 p-4 bg-white/10 rounded-xl w-fit">
-                  <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+                  <svg className="w-12 h-12" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M18 7c0-5.333-8-5.333-8 0c0 5 8 4 8 11H6M6 12h9M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
                 </div>
                 <h3 className="font-display text-2xl font-bold mb-3">Discreet Advisory</h3>
                 <p className="text-clinical-white/80 leading-relaxed">Discreet, audit-proof guidance that fixes root-cause risks and safeguards your businesses reputation, increase efficiency & productivity.</p>
