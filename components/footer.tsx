@@ -22,7 +22,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-clinical-white/70">
-              Strategic guidance for high-performance firms. Clinical evidence. Regulatory alignment. Operational resilience.
+              Strategic guidance and Support for SME's and beyond. Clinical evidence. Regulatory alignment. Operational resilience.
             </p>
           </div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
               </p>
               <p className="text-clinical-white/70 mt-3">
                 <strong>LinkedIn:</strong><br />
-                <a href="#" className="text-strategic-gold hover:underline">
+                <a href="www.linkedin.com/in/emily-hardy-vantage" className="text-strategic-gold hover:underline">
                   Emily Hardy
                 </a>
               </p>
