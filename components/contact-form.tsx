@@ -93,7 +93,7 @@ export default function ContactForm() {
       icon: Calendar,
       title: 'Meetings',
       content: 'Schedule via Calendly',
-      href: 'https://calendly.com/emily-hardy-vantageclinicalstrategy/30min',
+      href: 'https://calendly.com/vantage-clinical-strategy/the-principal-briefing',
       isLink: true,
       external: true,
     },
@@ -129,7 +129,7 @@ export default function ContactForm() {
             Strategic Conversation<br className="hidden md:block" /> Starts Here
           </h2>
           <p className="text-lg md:text-xl text-forensic-charcoal/60 max-w-2xl mx-auto font-light leading-relaxed">
-            Whether you're exploring systemic risk mitigation, planning a forensic audit, or seeking executive guidance — let's discuss how Vantage can support your organisation.
+            Whether you're exploring systemic risk mitigation, planning a forensic audit, or seeking executive guidance,  let's discuss how Vantage can support your organisation.
           </p>
         </motion.div>
 
