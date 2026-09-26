@@ -39,7 +39,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-xl text-forensic-charcoal/80 mb-10 leading-relaxed max-w-lg font-light">
-              Forensic Psychosocial Audits and ISO 45003 Strategy for Law, Finance, and Tech Firms.
+              Workplace Mental Health Audits & ISO45003 Strategy Governance for SME's and Beyond
             </p>
 
             <motion.div
@@ -90,7 +90,7 @@ export default function Hero() {
                 </svg>
               </div>
               <h3 className="font-display text-2xl font-bold text-midnight-navy mb-3">Evidence-Led</h3>
-              <p className="text-forensic-charcoal/80 leading-relaxed">Clinical psychology grounded in regulatory alignment, ensuring every strategy is defensible and data-driven.</p>
+              <p className="text-forensic-charcoal/80 leading-relaxed">Data-driven workplace mental health strategies, fully backed by clinical expertise and UK safety regulations.</p>
             </div>
 
             <div className="bg-midnight-navy text-clinical-white rounded-2xl shadow-xl hover:shadow-2xl transition-all p-10 flex flex-col justify-center relative overflow-hidden group">
@@ -102,7 +102,7 @@ export default function Hero() {
                   </svg>
                 </div>
                 <h3 className="font-display text-2xl font-bold mb-3">Discreet Advisory</h3>
-                <p className="text-clinical-white/80 leading-relaxed">Boardroom-ready insight with confidential rigor, protecting your firm's reputation while addressing structural risks.</p>
+                <p className="text-clinical-white/80 leading-relaxed">Discreet, audit-proof guidance that fixes root-cause risks and safeguards your businesses reputation, increase efficiency & productivity.</p>
               </div>
             </div>
           </motion.div>
