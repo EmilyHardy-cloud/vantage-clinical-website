@@ -59,10 +59,14 @@ export default function Footer() {
               </p>
               <p className="text-clinical-white/70 mt-3">
                 <strong>LinkedIn:</strong><br />
-                <a href="https://www.linkedin.com/in/emily-hardy-vantage" target="_blank" rel="noopener noreferrer"> className="text-strategic-gold hover:underline">
+                <a 
+                  href="https://www.linkedin.com/in/emily-hardy-vantage" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-strategic-gold hover:underline"
+                >
                   Emily Hardy
                 </a>
-              </p>
             </div>
           </div>
         </div>
