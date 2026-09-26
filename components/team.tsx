@@ -9,7 +9,9 @@ export default function Team() {
       name: 'Emily Hardy',
       title: 'Managing Director & Principal Consultant',
       email: 'emily.hardy@vantageclinicalstrategy.com',
-      bio: 'Emily is a clinically trained systemic practitioner specializing in high-performance organizational architecture and the mitigation of psychosocial risk. With a career built at the intersection of clinical safety and corporate governance, Emily founded Vantage to provide a forensic alternative to the "wellness" status quo. She works exclusively with CEOs and Managing Partners to identify structural liabilities, bridge regulatory gaps in ISO 45003 compliance, and design defensible organizational systems that protect both people and profit.',
+      bio: 'Emily is a clinically trained specialist in workplace psychological safety and organisational strategy. She founded Vantage to give business leaders a practical, defensible alternative to generic "wellbeing" apps and tick-box perks.
+
+Emily works directly with CEOs, Managing Partners, and Directors to pinpoint hidden operational risks, meet statutory ISO 45003 standards, and build resilient work systems that protect both your people and your bottom line',
       image: '/headshots/headshot1.jpg'
     },
   ]
