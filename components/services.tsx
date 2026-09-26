@@ -65,7 +65,7 @@ export default function Services() {
           </div>
 
           <h2 className="font-display text-4xl md:text-5xl font-bold text-midnight-navy mb-6 text-balance leading-tight">
-            We identify the <span className="text-strategic-gold decoration-4 underline-offset-4">'Hidden Peaks'</span> in your organizational architecture.
+            We identify the <span className="text-strategic-gold decoration-4 underline-offset-4">'Hidden Peaks'</span> in your organisational architecture.
           </h2>
 
           <p className="text-lg text-architectural-grey max-w-2xl mx-auto">
@@ -88,14 +88,14 @@ export default function Services() {
                 <Hexagon className="w-8 h-8 text-strategic-gold" strokeWidth={1.5} />
               </div>
               <h3 className="font-display text-4xl md:text-5xl font-bold mb-4">The Forensic Psychosocial Audit</h3>
-              <p className="text-strategic-gold text-sm font-bold uppercase tracking-widest mb-8">The Definitive Systemic Risk Diagnostic for High-Stakes Organisations.</p>
+              <p className="text-strategic-gold text-sm font-bold uppercase tracking-widest mb-8">The Risk Audit for Growing Businesses, SME's and Corporate Firms: Protecting Your People, Operations, and Profit.</p>
 
               <div className="prose prose-invert prose-lg text-white/80 mb-10 text-base leading-relaxed">
                 <p className="mb-4">
                   Standard employee surveys provide snapshots of sentiment; the Vantage Forensic Audit provides a map of liability. This is an intensive, principal-led investigation designed for organisations where "burnout" is not just a HR issue, but a threat to operational continuity and regulatory standing.
                 </p>
                 <p>
-                  <strong className="text-white">We don't just measure stress—we identify the structural hazards in your work-design that create it.</strong>
+                  <strong className="text-white">We don't just audit stress and policies- we fix the structural hazards that cause it, working alongside you to build a safer, stronger workplace.</strong>
                 </p>
               </div>
 
@@ -112,11 +112,11 @@ export default function Services() {
               <div className="flex flex-wrap items-center gap-6 mb-10 text-sm">
                 <div className="bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/10">
                   <span className="text-white/60 block mb-1 uppercase tracking-wider text-xs font-bold">Investment</span>
-                  <span className="text-white font-medium text-lg">From £7,500</span>
+                  <span className="text-white font-medium text-lg">From £450</span>
                 </div>
                 <div className="bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/10">
                   <span className="text-white/60 block mb-1 uppercase tracking-wider text-xs font-bold">Timeline</span>
-                  <span className="text-white font-medium text-lg">4–6 Weeks</span>
+                  <span className="text-white font-medium text-lg">2-3 Weeks</span>
                 </div>
               </div>
 
@@ -130,23 +130,23 @@ export default function Services() {
                 <h4 className="font-display text-2xl font-bold mb-6 text-white border-b border-white/10 pb-4">The Three Pillars of the Audit</h4>
                 <div className="space-y-8">
                   <div>
-                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">I.</span> Structural Hazard Mapping</h5>
+                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">I.</span> Structural Risk Mapping & Fixes </h5>
                     <p className="text-white/70 text-sm leading-relaxed">We go beyond surface-level symptoms to uncover the root causes of systemic risk, including role ambiguity, unsustainable workload architecture, and "hidden" cultural friction points.</p>
                   </div>
                   <div>
-                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">II.</span> ISO 45003 Regulatory Alignment</h5>
-                    <p className="text-white/70 text-sm leading-relaxed">A gap-analysis of your current psychological health and safety protocols against international standards. We ensure your governance is not just compliant, but defensible.</p>
+                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">II.</span> Legal Safeguards & ISO 45003 Alignment</h5>
+                    <p className="text-white/70 text-sm leading-relaxed">We assess your current health and safety practices against international standards to catch compliance gaps. Together, we build straightforward, defensible policies that protect your business from legal liabilities and tribunal risks..</p>
                   </div>
                   <div>
-                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">III.</span> Cognitive Capital Protection</h5>
-                    <p className="text-white/70 text-sm leading-relaxed">High-performance environments rely on cognitive output. We diagnose the systemic "leaks" where your firm is losing top-tier talent and productivity due to unmitigated psychosocial stressors.</p>
+                    <h5 className="text-lg font-bold text-strategic-gold mb-2 flex items-center gap-2"><span className="text-white/30 text-sm">III.</span> Workforce Performance & Talent Retention</h5>
+                    <p className="text-white/70 text-sm leading-relaxed">High-growth businesses lose time, money, and key staff to unmanaged workplace stress. We diagnose where your business is losing productivity and help you implement practical solutions that keep your best people safe, engaged, and performing.</p>
                   </div>
                 </div>
               </div>
 
               <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
                 <h4 className="font-bold text-white mb-2">Who This Is For</h4>
-                <p className="text-white/70 text-sm leading-relaxed">This audit is specifically designed for Law Firms, Financial Institutions, and Private Healthcare Groups—organisations where the cost of a single "people-risk" event outweighs the investment in forensic prevention.</p>
+                <p className="text-white/70 text-sm leading-relaxed">This service is designed for SME Directors, Managing Partners, and Business Owners who are scaling their teams and need to protect their operations. If you run a high-stakes SME where a single burnout-driven exit, grievance, or CQC/regulatory gap can cost tens of thousands in lost revenue, this partnership is for you.</p>
               </div>
             </div>
           </div>
