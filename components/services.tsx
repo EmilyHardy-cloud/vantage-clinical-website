@@ -12,7 +12,7 @@ const pricingTiers = [
     features: [
       'Review of current mental health policies, EAP utilisation, and manager protocols.',
       'ISO 45003 alignment check.',
-      'Prioritized 5-point clinical action report.',
+      'Prioritised 5-point clinical action report.',
       '45-minute executive debrief call.',
     ],
     cta: 'Book an Audit',
