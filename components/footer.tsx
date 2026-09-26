@@ -57,7 +57,7 @@ export default function Footer() {
                   enquiries@vantageclinicalstrategy.com
                 </a>
               </p>
-              <p className="text-clinical-white/70 mt-3">
+             <p className="text-clinical-white/70 mt-3">
                 <strong>LinkedIn:</strong><br />
                 <a 
                   href="https://www.linkedin.com/in/emily-hardy-vantage" 
@@ -67,6 +67,7 @@ export default function Footer() {
                 >
                   Emily Hardy
                 </a>
+              </p>
             </div>
           </div>
         </div>
