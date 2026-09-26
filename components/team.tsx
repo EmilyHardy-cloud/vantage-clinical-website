@@ -9,9 +9,9 @@ export default function Team() {
       name: 'Emily Hardy',
       title: 'Managing Director & Principal Consultant',
       email: 'emily.hardy@vantageclinicalstrategy.com',
-      bio: 'Emily is a clinically trained specialist in workplace psychological safety and organisational strategy. She founded Vantage to give business leaders a practical, defensible alternative to generic "wellbeing" apps and tick-box perks.
+      bio: `Emily is a clinically trained specialist in workplace psychological safety and organisational strategy. She founded Vantage to give business leaders a practical, defensible alternative to generic "wellbeing" apps and tick-box perks.
 
-Emily works directly with CEOs, Managing Partners, and Directors to pinpoint hidden operational risks, meet statutory ISO 45003 standards, and build resilient work systems that protect both your people and your bottom line',
+Emily works directly with CEOs, Managing Partners,HR Consultants and Directors to pinpoint hidden operational risks, meet statutory ISO 45003 standards, and build resilient work systems that protect both your people and your bottom line.`,
       image: '/headshots/headshot1.jpg'
     },
   ]
